@@ -44,13 +44,13 @@
         android:layout_height="399dp"
         android:layout_marginTop="36dp"
         android:ems="10"
-        android:hint="Item(s)"
+        android:gravity="top|left"
+        android:hint="Things to do today (including from daily, biweekly etc.) or things to do daily, biweekly etc."
         android:inputType="textMultiLine"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_List"
-        android:gravity="top|left"/>
+        app:layout_constraintTop_toBottomOf="@+id/et_List" />
 
     <TextView
         android:id="@+id/tv_List"
