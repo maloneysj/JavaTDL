@@ -16,8 +16,7 @@ public class TDLs {
     public String toString() {
         return "TDLs{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", items='" + items +'\'' +
+                ", name='" + name +'\'' +
                 '}';
     }
 
@@ -44,4 +43,7 @@ public class TDLs {
     public String getItems() {return items;}
 
     public void setItems(String items) {this.items=items;}
+
+
+
 }

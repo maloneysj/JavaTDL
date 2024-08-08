@@ -46,11 +46,11 @@ public class MyApplication extends Application {
 
     private void fillTDLsList() {
 
-        TDLs t0=new TDLs(55, "Today", "test Today");
-        TDLs t1=new TDLs(56, "Daily", "test Daily");
-        TDLs t2=new TDLs(57, "Weekly", "test Weekly");
-        TDLs t3=new TDLs(58, "Monthly", "test Monthly");
-        TDLs t4=new TDLs(59, "Yearly", "test Yearly");
+        TDLs t0=new TDLs(55, "Today", "");
+        TDLs t1=new TDLs(56, "Daily", "");
+        TDLs t2=new TDLs(57, "Weekly", "");
+        TDLs t3=new TDLs(58, "Monthly", "");
+        TDLs t4=new TDLs(59, "Yearly", "");
 
 
         TDLsList.addAll(Arrays.asList(new TDLs[] {t0, t1, t2, t3, t4}));
