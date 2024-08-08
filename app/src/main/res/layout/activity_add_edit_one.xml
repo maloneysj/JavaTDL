@@ -45,7 +45,7 @@
         android:layout_marginTop="36dp"
         android:ems="10"
         android:gravity="top|left"
-        android:hint="Things to do today (including from daily, biweekly etc.) or things to do daily, biweekly etc."
+        android:hint="Enter things to do today (including from daily, biweekly etc.) or things to do daily, biweekly etc."
         android:inputType="textMultiLine"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
